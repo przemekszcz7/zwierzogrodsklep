@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Zwierzogród Sklep Zoologiczny & Loca Groomer | Kraków</title>
+  <meta name="description" content="Zwierzogród Sklep Zoologiczny i salon Loca Groomer w Krakowie przy ul. Szwedzkiej 52. Karmy premium, przysmaki, suplementy, kosmetyki oraz profesjonalna pielęgnacja zwierząt.">
+  <meta property="og:title" content="Zwierzogród Sklep Zoologiczny & Loca Groomer | Kraków">
+  <meta property="og:description" content="Z miłości do zwierząt — w samym sercu Krakowa. Karmy premium, przysmaki, suplementy i salon pielęgnacji Loca Groomer przy ul. Szwedzkiej 52.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/jpeg" href="https://i.ibb.co/V006Ft13/491849997-122115960422819728-3025781480400471629-n.jpg">
+  
+  <!-- Image preloading for instant hero display -->
+  <link rel="preload" as="image" href="https://i.ibb.co/VcSxXf8M/502751325-17854425708446053-6417889058959573092-n.jpg" fetchpriority="high">
+  
+  <!-- Fonts with preconnect and display=swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --terracotta: #C45525;
+      --terracotta-dark: #A13F16;
+      --terracotta-light: #F7EAE3;
+      --amber: #D97736;
+      --amber-subtle: #FDF7F0;
+      --amber-border: #EED7C5;
+      --bg-cream: #FCFAF6;
+      --bg-white: #FFFFFF;
+      --text-main: #2A231F;
+      --text-muted: #5C5047;
+      --text-light: #7E7066;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-pill: 9999px;
+      --shadow-sm: 0 2px 8px rgba(42, 35, 31, 0.05);
+      --shadow-md: 0 6px 18px rgba(42, 35, 31, 0.08);
+      --shadow-lg: 0 12px 28px rgba(42, 35, 31, 0.11);
+      --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --transition-standard: all 0.22s ease-out;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      min-width: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100vw;
+    }
+
+    body {
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100vw;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    img, iframe {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition-standard);
+      word-break: break-word;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--font-display);
+      color: var(--text-main);
+      line-height: 1.25;
+      font-weight: 700;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 3.2rem);
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: clamp(1.6rem, 2.8vw, 2.3rem);
+      letter-spacing: -0.015em;
+      margin-bottom: 0.75rem;
+    }
+
+    h3 {
+      font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 1.02rem;
+      overflow-wrap: break-word;
+    }
+
+    /* CONTAINERS */
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+
+    /* SECTION DIVIDER WITH PAW */
+    .section-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 720px;
+      margin: 3rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .section-divider::before,
+    .section-divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(217, 119, 54, 0.05), var(--amber-border), rgba(217, 119, 54, 0.05));
+    }
+
+    .divider-paw {
+      padding: 0 0.85rem;
+      color: var(--amber);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      padding: 0.8rem 1.4rem;
+      border-radius: var(--radius-md);
+      font-weight: 600;
+      font-size: 0.95rem;
+      line-height: 1.25;
+      transition: var(--transition-standard);
+      text-align: center;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .btn-primary {
+      background-color: var(--terracotta);
+      color: #FFFFFF;
+      box-shadow: 0 4px 12px rgba(196, 85, 37, 0.25);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--terracotta-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(196, 85, 37, 0.32);
+      color: #FFFFFF;
+    }
+
+    .btn-secondary {
+      background-color: #FFFFFF;
+      color: var(--text-main);
+      border: 1px solid var(--amber-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--amber-subtle);
+      border-color: var(--amber);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-social-fb {
+      background-color: #1877F2;
+      color: #FFFFFF;
+    }
+
+    .btn-social-fb:hover {
+      background-color: #1464C9;
+      transform: translateY(-2px);
+      color: #FFFFFF;
+    }
+
+    .btn-social-ig {
+      background: linear-gradient(45deg, #F09433 0%, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888 100%);
+      color: #FFFFFF;
+    }
+
+    .btn-social-ig:hover {
+      opacity: 0.92;
+      transform: translateY(-2px);
+      color: #FFFFFF;
+    }
+
+    .btn-sm {
+      padding: 0.55rem 1.05rem;
+      font-size: 0.88rem;
+      border-radius: var(--radius-sm);
+    }
+
+    /* ICONS */
+    .icon {
+      width: 1.2rem;
+      height: 1.2rem;
+      stroke-width: 2;
+      stroke: currentColor;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    .icon-fill {
+      fill: currentColor;
+      stroke: none;
+    }
+
+    /* BADGES */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      max-width: 100%;
+    }
+
+    .badge-amber {
+      background-color: var(--amber-subtle);
+      color: var(--terracotta);
+      border: 1px solid var(--amber-border);
+    }
+
+    .badge-groomer {
+      background-color: #F1ECE6;
+      color: #634C3E;
+      border: 1px solid #D8C8BB;
+    }
+
+    /* HEADER & NAVIGATION */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #FCFAF6;
+      border-bottom: 1px solid rgba(238, 215, 197, 0.7);
+    }
+
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo-img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--amber-border);
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: var(--text-main);
+      line-height: 1.1;
+    }
+
+    .brand-subtitle {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--terracotta);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      list-style: none;
+    }
+
+    .nav-menu a {
+      font-weight: 600;
+      font-size: 0.94rem;
+      color: var(--text-main);
+    }
+
+    .nav-menu a:hover {
+      color: var(--terracotta);
+    }
+
+    .nav-cta-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--amber-border);
+      background-color: #FFFFFF;
+      color: var(--text-main);
+      padding: 0;
+      cursor: pointer;
+    }
+
+    /* FULLSCREEN MOBILE OVERLAY */
+    .mobile-nav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--bg-cream);
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+      overflow-y: auto;
+    }
+
+    .mobile-nav-overlay.is-active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .mobile-nav-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+
+    .mobile-nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .mobile-nav-links a {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: block;
+    }
+
+    .mobile-nav-links a:hover {
+      color: var(--terracotta);
+    }
+
+    .mobile-nav-footer {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--amber-border);
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+      padding: 2.5rem 0 3.25rem;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .hero-tagline {
+      font-size: clamp(1.15rem, 2.2vw, 1.35rem);
+      font-weight: 700;
+      color: var(--terracotta);
+      font-family: var(--font-display);
+      line-height: 1.35;
+    }
+
+    .hero-desc {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .hero-info-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.85rem;
+      margin-top: 0.25rem;
+    }
+
+    .info-card {
+      background-color: #FFFFFF;
+      padding: 1rem 1.15rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--amber-border);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: 0.85rem;
+      align-items: flex-start;
+    }
+
+    .info-card-icon {
+      color: var(--terracotta);
+      background-color: var(--terracotta-light);
+      padding: 0.5rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-card-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-bottom: 0.15rem;
+      letter-spacing: 0.03em;
+    }
+
+    .info-card-text {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.25rem;
+    }
+
+    .hero-image-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .hero-image-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 3px solid #FFFFFF;
+      background-color: #F0E8E1;
+    }
+
+    .hero-image-card img {
+      width: 100%;
+      height: 440px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-floating-badge {
+      position: absolute;
+      bottom: 1.25rem;
+      left: 1.25rem;
+      right: 1.25rem;
+      background: #FFFFFF;
+      padding: 0.85rem 1.15rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--amber-border);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .floating-badge-icon {
+      width: 38px;
+      height: 38px;
+      background-color: var(--terracotta);
+      color: #FFFFFF;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* ABOUT SECTION */
+    .about-section {
+      padding: 2rem 0;
+    }
+
+    .about-box {
+      background-color: var(--amber-subtle);
+      border: 1px solid var(--amber-border);
+      border-radius: var(--radius-lg);
+      padding: 2.75rem;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 2.5rem;
+      align-items: center;
+    }
+
+    .about-text h2 {
+      margin-bottom: 1rem;
+    }
+
+    .about-text p {
+      margin-bottom: 1rem;
+      font-size: 1.02rem;
+    }
+
+    .values-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.15rem;
+      margin-top: 1.25rem;
+    }
+
+    .value-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+    }
+
+    .value-check-icon {
+      color: var(--terracotta);
+      margin-top: 0.2rem;
+      flex-shrink: 0;
+    }
+
+    .value-title {
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 0.95rem;
+      line-height: 1.3;
+    }
+
+    .value-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .about-highlight-card {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-md);
+      padding: 2rem 1.75rem;
+      border: 1px solid var(--amber-border);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+    }
+
+    .about-highlight-card .paw-large {
+      width: 48px;
+      height: 48px;
+      color: var(--terracotta);
+      margin: 0 auto 1rem;
+    }
+
+    .highlight-quote {
+      font-family: var(--font-display);
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.4;
+      margin-bottom: 0.85rem;
+    }
+
+    .highlight-author {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      font-weight: 600;
+    }
+
+    /* OFFER SECTION */
+    .offer-section {
+      padding: 2.75rem 0;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .section-header p {
+      font-size: 1.05rem;
+    }
+
+    .offer-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .offer-card {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      border: 1px solid var(--amber-border);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1.15rem;
+      transition: var(--transition-standard);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .offer-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--terracotta), var(--amber));
+    }
+
+    .offer-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--amber);
+    }
+
+    .offer-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .offer-icon-wrapper {
+      width: 50px;
+      height: 50px;
+      border-radius: var(--radius-md);
+      background-color: var(--amber-subtle);
+      border: 1px solid var(--amber-border);
+      color: var(--terracotta);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .offer-features-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-top: 0.35rem;
+    }
+
+    .offer-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      font-size: 0.94rem;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .feature-bullet {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--terracotta);
+      flex-shrink: 0;
+    }
+
+    .offer-visual-feature {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 2rem;
+      background: #FFFFFF;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--amber-border);
+      overflow: hidden;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .offer-visual-img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      background-color: #F0E8E1;
+    }
+
+    .offer-visual-content {
+      padding: 2rem 2rem 2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.15rem;
+    }
+
+    /* LOCA GROOMER SECTION */
+    .groomer-section {
+      padding: 3.5rem 0;
+      background: linear-gradient(180deg, #F8F4EE 0%, #F3ECE2 100%);
+      border-top: 1px solid #E6D8CA;
+      border-bottom: 1px solid #E6D8CA;
+    }
+
+    .groomer-box {
+      border: 2px solid #D6C2B0;
+      border-radius: var(--radius-lg);
+      background-color: #FFFFFF;
+      padding: 2.75rem;
+      box-shadow: 0 8px 24px rgba(84, 60, 46, 0.07);
+    }
+
+    .groomer-badge-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .groomer-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 2.75rem;
+      align-items: center;
+    }
+
+    .groomer-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .groomer-lead {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #634C3E;
+      line-height: 1.55;
+    }
+
+    .groomer-notes {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      background-color: #FAF6F1;
+      padding: 1.25rem;
+      border-radius: var(--radius-md);
+      border-left: 4px solid #A98467;
+    }
+
+    .groomer-note-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .groomer-note-icon {
+      color: #A98467;
+      margin-top: 0.15rem;
+      flex-shrink: 0;
+    }
+
+    .groomer-note-text strong {
+      color: var(--text-main);
+      display: block;
+      font-size: 0.94rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .groomer-note-text span {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .groomer-image-wrapper {
+      width: 100%;
+    }
+
+    .groomer-image-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 3px solid #EDE0D4;
+      box-shadow: var(--shadow-md);
+      background-color: #F0E8E1;
+    }
+
+    .groomer-image-card img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .groomer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    .btn-groomer-call {
+      background-color: #634C3E;
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(99, 76, 62, 0.28);
+    }
+
+    .btn-groomer-call:hover {
+      background-color: #4D3A2F;
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    /* CONTACT & LOCATION SECTION */
+    .contact-section {
+      padding: 3.25rem 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    .contact-details-box {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .contact-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      background-color: #FFFFFF;
+      padding: 1.15rem 1.25rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--amber-border);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-standard);
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+
+    .contact-item:hover {
+      border-color: var(--amber);
+      transform: translateX(3px);
+    }
+
+    .contact-icon-wrapper {
+      width: 42px;
+      height: 42px;
+      background-color: var(--terracotta-light);
+      color: var(--terracotta);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-text-group {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .contact-text-group h4 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-light);
+      margin-bottom: 0.2rem;
+    }
+
+    .contact-link {
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 1.02rem;
+      display: block;
+      word-break: break-all;
+    }
+
+    .contact-link:hover {
+      color: var(--terracotta);
+    }
+
+    .contact-subtext {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .contact-social-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .map-outer-wrapper {
+      background-color: #FFFFFF;
+      border: 2px solid var(--amber-border);
+      border-radius: var(--radius-lg);
+      padding: 0.6rem;
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .map-inner-frame {
+      border-radius: calc(var(--radius-lg) - 4px);
+      overflow: hidden;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .map-inner-frame iframe {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 400px !important;
+      display: block;
+      border-radius: calc(var(--radius-lg) - 4px);
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background-color: #241E1A;
+      color: #E2DAD3;
+      padding: 3.75rem 0 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 2.75rem;
+      margin-bottom: 2.75rem;
+    }
+
+    .footer-brand-title {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-tagline {
+      color: var(--amber);
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-desc {
+      color: #B5A89E;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+
+    .footer-heading {
+      color: #FFFFFF;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1.15rem;
+      position: relative;
+      padding-bottom: 0.45rem;
+    }
+
+    .footer-heading::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 28px;
+      height: 2px;
+      background-color: var(--terracotta);
+    }
+
+    .footer-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-item {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      font-size: 0.92rem;
+      color: #CFC5BD;
+    }
+
+    .footer-item a {
+      color: #CFC5BD;
+    }
+
+    .footer-item a:hover {
+      color: #FFFFFF;
+    }
+
+    .footer-groomer-callout {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .groomer-callout-title {
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 0.96rem;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 1.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      font-size: 0.85rem;
+      color: #9E9187;
+    }
+
+    /* SCROLL ANIMATIONS */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    }
+
+    .reveal.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ACCESSIBILITY & PREFERS-REDUCED-MOTION */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+    }
+
+    /* RESPONSIVE BREAKPOINTS */
+    @media (max-width: 1024px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+      }
+      .hero-image-card img {
+        height: 380px;
+      }
+      .about-box {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+      }
+      .groomer-grid {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+      }
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+      }
+      .offer-visual-feature {
+        grid-template-columns: 1fr;
+      }
+      .offer-visual-content {
+        padding: 1.5rem;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* Mobile fast-render: eliminate laggy opacity shifts on touch screens */
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+
+      .nav-menu, .nav-cta-group {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: flex;
+      }
+      .offer-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+      }
+      .values-list {
+        grid-template-columns: 1fr;
+        gap: 0.85rem;
+      }
+      .about-box, .groomer-box {
+        padding: 1.5rem 1.15rem;
+      }
+      .offer-card {
+        padding: 1.5rem 1.15rem;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+      }
+      .hero-image-card img {
+        height: 280px;
+      }
+      .groomer-image-card img {
+        height: 280px;
+      }
+      .offer-visual-img {
+        height: 240px;
+      }
+      .map-inner-frame iframe {
+        height: 320px !important;
+      }
+
+      /* Fix floating badge overflow on mobile: make it neatly dock below the photo */
+      .hero-floating-badge {
+        position: static;
+        margin: 0.85rem 0.85rem 0.85rem;
+        box-sizing: border-box;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .hero-actions, .groomer-actions, .contact-social-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+      .hero-actions .btn, .groomer-actions .btn, .contact-social-buttons .btn {
+        width: 100%;
+      }
+      .hero-info-cards {
+        grid-template-columns: 1fr;
+      }
+      .contact-item {
+        padding: 1rem;
+      }
+      .about-highlight-card {
+        padding: 1.5rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-bar" aria-label="Główna nawigacja strony">
+        <a href="#strona-glowna" class="brand-link">
+          <img src="https://i.ibb.co/V006Ft13/491849997-122115960422819728-3025781480400471629-n.jpg" alt="Logo Zwierzogród Sklep Zoologiczny Kraków" class="brand-logo-img" width="42" height="42" decoding="async">
+          <div class="brand-text">
+            <span class="brand-title">Zwierzogród</span>
+            <span class="brand-subtitle">Sklep Zoologiczny</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="#o-nas">O nas</a></li>
+          <li><a href="#oferta">Oferta</a></li>
+          <li><a href="#loca-groomer">Loca Groomer</a></li>
+          <li><a href="#kontakt">Kontakt i lokalizacja</a></li>
+        </ul>
+
+        <div class="nav-cta-group">
+          <a href="tel:538530683" class="btn btn-primary btn-sm">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            538 530 683
+          </a>
+        </div>
+
+        <button type="button" class="mobile-menu-btn" id="mobileMenuOpenBtn" aria-label="Otwórz menu mobilne" aria-expanded="false" aria-controls="mobileNavOverlay">
+          <svg class="icon" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FULLSCREEN MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" role="dialog" aria-modal="true" aria-label="Nawigacja mobilna">
+    <div class="mobile-nav-header">
+      <a href="#strona-glowna" class="brand-link mobile-link">
+        <img src="https://i.ibb.co/V006Ft13/491849997-122115960422819728-3025781480400471629-n.jpg" alt="Logo Zwierzogród" class="brand-logo-img" width="42" height="42" decoding="async">
+        <div class="brand-text">
+          <span class="brand-title">Zwierzogród</span>
+          <span class="brand-subtitle">Sklep Zoologiczny</span>
+        </div>
+      </a>
+      <button type="button" class="mobile-menu-btn" id="mobileMenuCloseBtn" aria-label="Zamknij menu mobilne">
+        <svg class="icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <ul class="mobile-nav-links">
+      <li><a href="#strona-glowna" class="mobile-link">Strona główna</a></li>
+      <li><a href="#o-nas" class="mobile-link">O nas</a></li>
+      <li><a href="#oferta" class="mobile-link">Oferta produktów</a></li>
+      <li><a href="#loca-groomer" class="mobile-link">Salon Loca Groomer</a></li>
+      <li><a href="#kontakt" class="mobile-link">Kontakt i lokalizacja</a></li>
+    </ul>
+
+    <div class="mobile-nav-footer">
+      <a href="tel:538530683" class="btn btn-primary">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Zadzwoń do sklepu: 538 530 683
+      </a>
+      <a href="tel:888160190" class="btn btn-secondary">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+        Zadzwoń do Loca Groomer: 888 160 190
+      </a>
+    </div>
+  </div>
+
+  <main id="strona-glowna">
+    
+    <!-- HERO SECTION -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content reveal">
+            <div class="badge badge-amber">
+              <svg class="icon icon-fill" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v-2h-2v2zm0-4h2V7h-2v6z"/></svg>
+              Kraków Dębniki &bull; ul. Szwedzka 52
+            </div>
+
+            <h1 id="hero-heading">Zwierzogród Sklep Zoologiczny</h1>
+
+            <p class="hero-tagline">
+              Z miłości do zwierząt — w samym sercu Krakowa.
+            </p>
+
+            <p class="hero-desc">
+              Kameralny i profesjonalny sklep zoologiczny stworzony z myślą o zdrowiu, komforcie i radości czworonożnych przyjaciół. W jednym miejscu oferujemy starannie wyselekcjonowane karmy premium, odżywcze przysmaki, suplementy oraz kosmetyki i akcesoria. Na miejscu działa również renomowany salon pielęgnacji zwierząt Loca Groomer.
+            </p>
+
+            <div class="hero-info-cards">
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <div class="info-card-title">Adres sklepu</div>
+                  <div class="info-card-text">ul. Szwedzka 52, Kraków</div>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                  <div class="info-card-title">Godziny otwarcia</div>
+                  <div class="info-card-text">Pn–Pt 10:00–18:00<br>Sobota 10:00–13:00</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="tel:538530683" class="btn btn-primary">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Zadzwoń: 538 530 683
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61574591846618" target="_blank" rel="noopener noreferrer" class="btn btn-social-fb">
+                <svg class="icon icon-fill" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook sklepu
+              </a>
+              <a href="https://www.instagram.com/zwierzogrod.shop" target="_blank" rel="noopener noreferrer" class="btn btn-social-ig">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                Instagram
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper reveal">
+            <div class="hero-image-card">
+              <img src="https://i.ibb.co/VcSxXf8M/502751325-17854425708446053-6417889058959573092-n.jpg" alt="Pies w sklepie zoologicznym Zwierzogród w Krakowie" width="600" height="440" fetchpriority="high" decoding="async">
+              <div class="hero-floating-badge">
+                <div class="floating-badge-icon">
+                  <svg class="icon icon-fill" viewBox="0 0 24 24" style="width: 20px; height: 20px;"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                </div>
+                <div>
+                  <div style="font-weight: 700; font-size: 0.95rem; color: var(--text-main);">Zwierzęta są u nas rodziną</div>
+                  <div style="font-size: 0.82rem; color: var(--text-muted);">Indywidualne doradztwo żywieniowe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER WITH PAW -->
+    <div class="section-divider" aria-hidden="true">
+      <span class="divider-paw">
+        <svg class="icon icon-fill" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+          <circle cx="7" cy="8" r="2.2"/>
+          <circle cx="17" cy="8" r="2.2"/>
+          <circle cx="12" cy="5" r="2.2"/>
+          <path d="M12 11c-2.8 0-5 2.2-5 5 0 2.2 1.8 3.5 5 3.5s5-1.3 5-3.5c0-2.8-2.2-5-5-5z"/>
+        </svg>
+      </span>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="o-nas" class="about-section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-box reveal">
+          <div class="about-text">
+            <div class="badge badge-amber" style="margin-bottom: 1rem;">O naszym sklepie</div>
+            <h2 id="about-heading">Pasja, troska i wiedza w służbie Twoim pupilom</h2>
+            <p>
+              Zwierzogród powstał z prawdziwego zamiłowania do zwierząt domowych. Wiemy, jak ogromne znaczenie dla zdrowia i długowieczności psów oraz kotów ma odpowiednio zbilansowana dieta, wolna od sztucznych wypełniaczy i zbędnych dodatków.
+            </p>
+            <p>
+              W naszym sklepie przy ulicy Szwedzkiej 52 w Krakowie każdy opiekun może liczyć na serdeczną atmosferę, rzetelną poradę oraz produkty pochodzące od sprawdzonych, renomowanych producentów dbających o najwyższe standardy etyczne i jakościowe.
+            </p>
+
+            <div class="values-list">
+              <div class="value-item">
+                <svg class="icon value-check-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <div>
+                  <div class="value-title">Czyste składy produktów</div>
+                  <div class="value-desc">Bezpieczne karmy i przysmaki o wysokiej zawartości mięsa.</div>
+                </div>
+              </div>
+
+              <div class="value-item">
+                <svg class="icon value-check-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <div>
+                  <div class="value-title">Fachowe wsparcie</div>
+                  <div class="value-desc">Pomożemy dobrać karmę dla alergików i zwierząt wrażliwych.</div>
+                </div>
+              </div>
+
+              <div class="value-item">
+                <svg class="icon value-check-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <div>
+                  <div class="value-title">Kompleksowa opieka</div>
+                  <div class="value-desc">Zakupy zoologiczne połączone z wizytą u groomera na miejscu.</div>
+                </div>
+              </div>
+
+              <div class="value-item">
+                <svg class="icon value-check-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <div>
+                  <div class="value-title">Lokalny krakowski klimat</div>
+                  <div class="value-desc">Przyjazne miejsce spotkań dla krakowskich miłośników zwierząt.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-highlight-card">
+            <svg class="paw-large icon-fill" viewBox="0 0 24 24">
+              <circle cx="7" cy="8" r="2.2"/>
+              <circle cx="17" cy="8" r="2.2"/>
+              <circle cx="12" cy="5" r="2.2"/>
+              <path d="M12 11c-2.8 0-5 2.2-5 5 0 2.2 1.8 3.5 5 3.5s5-1.3 5-3.5c0-2.8-2.2-5-5-5z"/>
+            </svg>
+            <div class="highlight-quote">
+              „Zwierzę nie jest tylko zwierzęciem — jest członkiem rodziny, który zasługuje na pełną miłość i najlepszą możliwą opiekę każdego dnia.”
+            </div>
+            <div class="highlight-author">
+              Zespół Zwierzogród Kraków
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER WITH PAW -->
+    <div class="section-divider" aria-hidden="true">
+      <span class="divider-paw">
+        <svg class="icon icon-fill" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+          <circle cx="7" cy="8" r="2.2"/>
+          <circle cx="17" cy="8" r="2.2"/>
+          <circle cx="12" cy="5" r="2.2"/>
+          <path d="M12 11c-2.8 0-5 2.2-5 5 0 2.2 1.8 3.5 5 3.5s5-1.3 5-3.5c0-2.8-2.2-5-5-5z"/>
+        </svg>
+      </span>
+    </div>
+
+    <!-- OFFER SECTION -->
+    <section id="oferta" class="offer-section" aria-labelledby="offer-heading">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="badge badge-amber" style="margin-bottom: 0.75rem;">Asortyment sklepu</div>
+          <h2 id="offer-heading">Wyselekcjonowana oferta dla zdrowia i radości</h2>
+          <p>
+            Dbamy o to, aby na naszych półkach znajdowały się wyłącznie sprawdzone artykuły najwyższej klasy. Współpracujemy z wiodącymi markami weterynaryjnymi i holistycznymi.
+          </p>
+        </div>
+
+        <div class="offer-grid">
+          
+          <!-- CATEGORY 1: FOOD, TREATS, SUPPLEMENTS -->
+          <article class="offer-card reveal">
+            <div class="offer-header">
+              <div class="offer-icon-wrapper" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M12 3v3m-4-2.5v2m8-2v2"></path>
+                  <path d="M3 11c0 5 4 9 9 9s9-4 9-9H3z"></path>
+                  <path d="M4.5 20h15"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="badge badge-amber" style="font-size: 0.72rem; padding: 0.2rem 0.6rem; margin-bottom: 0.35rem;">Kategoria pierwsza</span>
+                <h3>Karmy premium, topowe marki, zdrowe przysmaki i suplementy</h3>
+              </div>
+            </div>
+
+            <p>
+              Pełnowartościowe żywienie to fundament witalności i odporności każdego psa i kota. Dostarczamy karmy suche i mokre o wysokiej zawartości szlachetnego mięsa, karmy monobiałkowe dla alergików oraz karmy bezzbożowe.
+            </p>
+
+            <ul class="offer-features-list">
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Karmy bytowe, weterynaryjne oraz bezzbożowe renomowanych producentów</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Naturalne gryzaki, suszone mięsa i zdrowe przysmaki treningowe</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Suplementy diety na stawy, sierść, układ trawienny i odporność</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Oleje z łososia, drożdże browarnicze i preparaty witaminowe</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- CATEGORY 2: COSMETICS, ACCESSORIES, TOYS -->
+          <article class="offer-card reveal">
+            <div class="offer-header">
+              <div class="offer-icon-wrapper" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="7"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M12 5V2m7 3l2-2M5 5L3 3m16 14l2 2M5 19l-2 2"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="badge badge-amber" style="font-size: 0.72rem; padding: 0.2rem 0.6rem; margin-bottom: 0.35rem;">Kategoria druga</span>
+                <h3>Profesjonalne kosmetyki, akcesoria i zabawki</h3>
+              </div>
+            </div>
+
+            <p>
+              Wszystko, co niezbędne do codziennej pielęgnacji, bezpiecznych spacerów i kreatywnej zabawy. Oferujemy profesjonalne preparaty pielęgnacyjne rekomendowane przez groomerów oraz trwałe akcesoria spacerowe.
+            </p>
+
+            <ul class="offer-features-list">
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Szampony hipoalergiczne, odżywki, balsamy do łap i preparaty do uszu</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Ergonomiczne szelki, obroże, smycze miejskie oraz treningowe</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Zabawki edukacyjne, maty węchowe, piłki i szarpaki dla aktywnych psów</span>
+              </li>
+              <li class="offer-feature-item">
+                <span class="feature-bullet"></span>
+                <span>Drapaki, wędki z piórkami, legowiska i akcesoria higieniczne dla kotów</span>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+
+        <!-- FEATURED OFFER VISUAL -->
+        <div class="offer-visual-feature reveal">
+          <img src="https://i.ibb.co/MDctz1M4/502155655-17854425717446053-4779743295041438619-n.jpg" alt="Półki z produktami i zadowolony pies w sklepie Zwierzogród w Krakowie" class="offer-visual-img" loading="lazy" decoding="async" width="600" height="360">
+          <div class="offer-visual-content">
+            <div class="badge badge-amber">Jakość bez kompromisów</div>
+            <h3>Świeże dostawy i bezpośrednia pomoc w wyborze</h3>
+            <p>
+              Regularnie wzbogacamy ofertę o nowości rynkowe oraz produkty sezonowe — od maści ochronnych na opuszki łap podczas zimy po chłodzące maty i kamizelki na upalne letnie dni w Krakowie.
+            </p>
+            <p>
+              Jeśli szukasz konkretnego produktu lub specjalistycznej karmy z zalecenia lekarza weterynarii, skontaktuj się z nami telefonicznie — z przyjemnością sprawdzimy dostępność lub sprowadzimy towar specjalnie dla Ciebie.
+            </p>
+            <div>
+              <a href="tel:538530683" class="btn btn-primary btn-sm">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Zapytaj o produkt: 538 530 683
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER WITH PAW -->
+    <div class="section-divider" aria-hidden="true">
+      <span class="divider-paw">
+        <svg class="icon icon-fill" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+          <circle cx="7" cy="8" r="2.2"/>
+          <circle cx="17" cy="8" r="2.2"/>
+          <circle cx="12" cy="5" r="2.2"/>
+          <path d="M12 11c-2.8 0-5 2.2-5 5 0 2.2 1.8 3.5 5 3.5s5-1.3 5-3.5c0-2.8-2.2-5-5-5z"/>
+        </svg>
+      </span>
+    </div>
+
+    <!-- DEDICATED LOCA GROOMER SECTION -->
+    <section id="loca-groomer" class="groomer-section" aria-labelledby="groomer-heading">
+      <div class="container">
+        
+        <div class="groomer-box reveal">
+          
+          <div class="groomer-badge-wrapper">
+            <div class="badge badge-groomer">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px;"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+              Strefa Pielęgnacji w Zwierzogrodzie
+            </div>
+            <div style="font-size: 0.88rem; font-weight: 600; color: #7A6252;">
+              Kraków &bull; ul. Szwedzka 52
+            </div>
+          </div>
+
+          <div class="groomer-grid">
+            
+            <div class="groomer-content">
+              <h2 id="groomer-heading">Groomer — salon pielęgnacji dla zwierząt: Loca Groomer</h2>
+              
+              <p class="groomer-lead">
+                W trosce o piękny wygląd, lśniącą sierść i higienę Twojego zwierzaka na terenie naszego sklepu funkcjonuje niezależny, profesjonalny salon pielęgnacji czworonogów Loca Groomer.
+              </p>
+
+              <p>
+                Zapewniamy bezstresowe podejście, pełne cierpliwości i empatii, dostosowane do temperamentu każdego pupila — zarówno szczeniąt stawiających pierwsze kroki na stole groomerskim, jak i psów lękliwych czy starszych.
+              </p>
+
+              <!-- IMPORTANT LOCA GROOMER NOTES -->
+              <div class="groomer-notes">
+                
+                <div class="groomer-note-row">
+                  <div class="groomer-note-icon" aria-hidden="true">
+                    <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <div class="groomer-note-text">
+                    <strong>Indywidualne godziny otwarcia salonu</strong>
+                    <span>Salon Loca Groomer posiada własne, niezależne od sklepu godziny pracy dostosowane do umówionych wizyt.</span>
+                  </div>
+                </div>
+
+                <div class="groomer-note-row">
+                  <div class="groomer-note-icon" aria-hidden="true">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  </div>
+                  <div class="groomer-note-text">
+                    <strong>Rezerwacja wizyt</strong>
+                    <span>Wizyty można rezerwować telefonicznie lub bezpośrednio poprzez platformę Booksy.</span>
+                  </div>
+                </div>
+
+                <div class="groomer-note-row">
+                  <div class="groomer-note-icon" aria-hidden="true">
+                    <svg class="icon" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                  </div>
+                  <div class="groomer-note-text">
+                    <strong>Wskazówka nawigacyjna: przejście przez sklep</strong>
+                    <span>Wejście do salonu Loca Groomer prowadzi bezpośrednio przez wnętrze sklepu zoologicznego Zwierzogród — zapraszamy śmiało do środka.</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- CTA BUTTONS FOR LOCA GROOMER -->
+              <div class="groomer-actions">
+                <a href="tel:888160190" class="btn btn-groomer-call">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  Zadzwoń do salonu: 888 160 190
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61590578270942" target="_blank" rel="noopener noreferrer" class="btn btn-social-fb">
+                  <svg class="icon icon-fill" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  Facebook Loca Groomer
+                </a>
+              </div>
+
+            </div>
+
+            <!-- FEATURED PHOTO 3 FOR GROOMING -->
+            <div class="groomer-image-wrapper">
+              <div class="groomer-image-card">
+                <img src="https://i.ibb.co/LDQ4rFFt/503774643-17854738338446053-4371297416727318390-n.jpg" alt="Pielęgnacja psa w salonie Loca Groomer w Zwierzogrodzie" loading="lazy" decoding="async" width="600" height="400">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER WITH PAW -->
+    <div class="section-divider" aria-hidden="true">
+      <span class="divider-paw">
+        <svg class="icon icon-fill" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+          <circle cx="7" cy="8" r="2.2"/>
+          <circle cx="17" cy="8" r="2.2"/>
+          <circle cx="12" cy="5" r="2.2"/>
+          <path d="M12 11c-2.8 0-5 2.2-5 5 0 2.2 1.8 3.5 5 3.5s5-1.3 5-3.5c0-2.8-2.2-5-5-5z"/>
+        </svg>
+      </span>
+    </div>
+
+    <!-- CONTACT & LOCATION SECTION -->
+    <section id="kontakt" class="contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="badge badge-amber" style="margin-bottom: 0.75rem;">Dane kontaktowe</div>
+          <h2 id="contact-heading">Odwiedź nas w Krakowie</h2>
+          <p>
+            Serdecznie zapraszamy do odwiedzin ze swoim pupilem. Chętnie odpowiemy na wszystkie pytania dotyczące żywienia, doboru akcesoriów oraz pielęgnacji.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- CONTACT DETAILS -->
+          <div class="contact-details-box reveal">
+            
+            <div class="contact-info-list">
+              
+              <div class="contact-item">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-text-group">
+                  <h4>Adres</h4>
+                  <div class="contact-link">ul. Szwedzka 52, Kraków</div>
+                  <div class="contact-subtext">Dzielnica Dębniki, dogodny dojazd komunikacją miejską i samochodem.</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="contact-text-group">
+                  <h4>Godziny otwarcia sklepu</h4>
+                  <div class="contact-link">Poniedziałek – Piątek: 10:00 – 18:00</div>
+                  <div class="contact-link" style="margin-top: 0.2rem;">Sobota: 10:00 – 13:00</div>
+                  <div class="contact-subtext">Niedziela: nieczynne (salon Loca Groomer według indywidualnych rezerwacji).</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-text-group">
+                  <h4>Telefon do sklepu</h4>
+                  <a href="tel:538530683" class="contact-link">538 530 683</a>
+                  <div class="contact-subtext">Kliknij, aby nawiązać bezpośrednie połączenie telefoniczne.</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-text-group">
+                  <h4>Adres e-mail</h4>
+                  <a href="mailto:zwierzogrod.shop@gmail.com" class="contact-link">zwierzogrod.shop@gmail.com</a>
+                  <div class="contact-subtext">Napisz do nas w sprawie zamówień, zapytań o dostępność lub doradztwa.</div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="contact-social-buttons">
+              <a href="https://www.facebook.com/profile.php?id=61574591846618" target="_blank" rel="noopener noreferrer" class="btn btn-social-fb">
+                <svg class="icon icon-fill" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook Zwierzogród
+              </a>
+              <a href="https://www.instagram.com/zwierzogrod.shop" target="_blank" rel="noopener noreferrer" class="btn btn-social-ig">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                Instagram Zwierzogród
+              </a>
+            </div>
+
+          </div>
+
+          <!-- UNMODIFIED GOOGLE MAPS IFRAME IN ROUNDED BORDERED WRAPPER -->
+          <div class="map-outer-wrapper reveal">
+            <div class="map-inner-frame">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.858955809442!2d19.92358211258086!3d50.044875616363775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b64d590f485%3A0xb37d0100096e9ed4!2sSzwedzka%2052%2C%2030-324%20Krak%C3%B3w!5e1!3m2!1spl!2spl!4v1791024717241!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <div>
+          <div class="footer-brand-title">Zwierzogród Sklep Zoologiczny</div>
+          <p class="footer-tagline">Z miłości do zwierząt — w samym sercu Krakowa.</p>
+          <p class="footer-desc">
+            Kompleksowy sklep zoologiczny przy ul. Szwedzkiej 52 w Krakowie. Dbamy o najwyższą jakość produktów i dobre samopoczucie czworonogów. Na miejscu zapraszamy również do salonu pielęgnacji Loca Groomer.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-heading">Kontakt i godziny</div>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 15px; height: 15px; color: var(--amber);"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>ul. Szwedzka 52, Kraków</span>
+            </li>
+            <li class="footer-item">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 15px; height: 15px; color: var(--amber);"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Pn–Pt: 10:00–18:00, Sob: 10:00–13:00</span>
+            </li>
+            <li class="footer-item">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 15px; height: 15px; color: var(--amber);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:538530683">538 530 683</a>
+            </li>
+            <li class="footer-item">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 15px; height: 15px; color: var(--amber);"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:zwierzogrod.shop@gmail.com">zwierzogrod.shop@gmail.com</a>
+            </li>
+            <li class="footer-item" style="margin-top: 0.4rem;">
+              <a href="https://www.facebook.com/profile.php?id=61574591846618" target="_blank" rel="noopener noreferrer" style="color: #92B4F2; text-decoration: underline;">Facebook sklepu</a>
+              <span style="color: #6C5F56;">&bull;</span>
+              <a href="https://www.instagram.com/zwierzogrod.shop" target="_blank" rel="noopener noreferrer" style="color: #F4A261; text-decoration: underline;">Instagram</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Salon Pielęgnacji</div>
+          <div class="footer-groomer-callout">
+            <div class="groomer-callout-title">Loca Groomer na miejscu</div>
+            <p style="font-size: 0.86rem; color: #C5B8AF; line-height: 1.45;">
+              Profesjonalne strzyżenie, kąpiele i pielęgnacja zwierząt. Rezerwacje telefoniczne oraz przez platformę Booksy. Wejście przez sklep.
+            </p>
+            <div style="margin-top: 0.2rem;">
+              <a href="tel:888160190" class="btn btn-sm" style="background-color: #8C6D58; color: #FFFFFF; width: 100%;">
+                <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Zadzwoń: 888 160 190
+              </a>
+            </div>
+            <div style="font-size: 0.8rem; margin-top: 0.15rem;">
+              <a href="https://www.facebook.com/profile.php?id=61590578270942" target="_blank" rel="noopener noreferrer" style="color: #D8C8BB; text-decoration: underline;">
+                Profil Facebook Loca Groomer &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; Zwierzogród Sklep Zoologiczny &bull; Kraków, ul. Szwedzka 52 &bull; Wszelkie prawa zastrzeżone.
+        </div>
+        <div>
+          Z miłości do zwierząt — w samym sercu Krakowa.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- VANILLA JAVASCRIPT -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var isMobile = window.innerWidth <= 768;
+      var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var revealElements = document.querySelectorAll('.reveal');
+
+      // 1. SCROLL-TRIGGERED FADE-IN ANIMATIONS
+      // On mobile or if reduced motion is requested, reveal instantly for buttery 60fps scrolling
+      if (!isMobile && !prefersReducedMotion && 'IntersectionObserver' in window) {
+        var revealObserver = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.08,
+          rootMargin: '0px 0px -20px 0px'
+        });
+
+        revealElements.forEach(function (el) {
+          revealObserver.observe(el);
+        });
+      } else {
+        revealElements.forEach(function (el) {
+          el.classList.add('revealed');
+        });
+      }
+
+      // 2. MOBILE HAMBURGER MENU FULLSCREEN OVERLAY
+      var openBtn = document.getElementById('mobileMenuOpenBtn');
+      var closeBtn = document.getElementById('mobileMenuCloseBtn');
+      var overlay = document.getElementById('mobileNavOverlay');
+      var mobileLinks = document.querySelectorAll('.mobile-link');
+
+      function openMobileMenu() {
+        if (!overlay) return;
+        overlay.classList.add('is-active');
+        if (openBtn) openBtn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeMobileMenu() {
+        if (!overlay) return;
+        overlay.classList.remove('is-active');
+        if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      if (openBtn && closeBtn && overlay) {
+        openBtn.addEventListener('click', openMobileMenu);
+        closeBtn.addEventListener('click', closeMobileMenu);
+
+        mobileLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            closeMobileMenu();
+          });
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && overlay.classList.contains('is-active')) {
+            closeMobileMenu();
+          }
+        });
+      }
+
+      // 3. SMOOTH SCROLLING FOR ALL INTERNAL ANCHOR LINKS
+      var anchorLinks = document.querySelectorAll('a[href^="#"]');
+      anchorLinks.forEach(function (anchor) {
+        anchor.addEventListener('click', function (e) {
+          var targetId = this.getAttribute('href');
+          if (targetId && targetId !== '#') {
+            var targetElement = document.querySelector(targetId);
+            if (targetElement) {
+              e.preventDefault();
+              targetElement.scrollIntoView({
+                behavior: prefersReducedMotion ? 'auto' : 'smooth',
+                block: 'start'
+              });
+              history.pushState(null, null, targetId);
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

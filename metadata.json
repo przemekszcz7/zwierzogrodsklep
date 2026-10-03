@@ -1,0 +1,6 @@
+{
+  "name": "Zwierzogród Sklep Zoologiczny & Loca Groomer",
+  "description": "Zwierzogród Sklep Zoologiczny i salon Loca Groomer w Krakowie przy ul. Szwedzkiej 52. Karmy premium, przysmaki, suplementy, kosmetyki oraz profesjonalna pielęgnacja zwierząt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
